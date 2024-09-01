@@ -1,0 +1,37 @@
+.TodoForm{
+    height: 30px;
+    display: flex;
+    margin-bottom: 10px;
+
+}
+input{
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    font-style: italic; /* Kiểu chữ nghiêng */
+    font-size: 14px; /* Kích thước chữ */
+    font-weight: bold; /* Độ đậm chữ */
+
+}
+input::placeholder {
+    color: #90AFC5; /* Màu chữ */
+    font-size: 16px; /* Kích thước chữ */
+    font-weight: bold; /* Độ đậm chữ */
+    font-style: italic; /* Kiểu chữ nghiêng */
+    text-transform: uppercase; /* Viết hoa toàn bộ chữ */
+    opacity: 1; /* Độ mờ */
+}
+button{
+    height: 106%;
+    background-color: rgb(35, 35, 35);
+    border: none;
+    font-family:sans-serif;
+    font-weight: 600;
+    color: #90AFC5;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 0.6s;
+    cursor: pointer;
+}

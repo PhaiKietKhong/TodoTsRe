@@ -1,0 +1,32 @@
+.Todo{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #336B87;
+    position: relative;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+    flex: 2;
+}
+.trash{
+    margin-left: 5px;
+}
+.trash:hover{
+    cursor: pointer;
+    color: #28556b;
+
+}
+.edit:hover{
+    cursor: pointer;
+    color: #28556b;
+
+}
+li{
+    cursor: pointer;
+    user-select: none;
+
+}

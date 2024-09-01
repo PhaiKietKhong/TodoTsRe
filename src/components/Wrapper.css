@@ -1,0 +1,22 @@
+.container{
+    background-color: #336B87;
+    color: #dbdbdb;
+    border-radius: 10px;
+    padding: 0px 20px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-height: 400px;
+  }
+  .matemasie-regular {
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .title{
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }
